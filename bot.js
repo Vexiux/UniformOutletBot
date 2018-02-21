@@ -13,4 +13,4 @@ client.on('message', message => {
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
-bot.user.setPresence({ status: 'online', game: { name: 'Uniform Outlet Server' } });
+client.user.setGame('UniformOutlet Server')
